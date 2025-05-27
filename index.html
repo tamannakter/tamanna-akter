@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+  <title>Food Pricing Website</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div id="introPage">
+    <div class="intro-content">
+      <img src="./img/logo.png" alt="Logo" class="logo" />
+      <h1 class="app-name">Craving Hunter</h1>
+      <button onclick="showMainPage()" class="continue-btn">Continue</button>
+    </div>
+  </div>
+  <div class="container" id="container">
+    <div>
+      <h4 style="text-align: center">A project By Team<span
+          style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; color:rgb(50, 104, 205)">
+          Bitbuddies </span></h4>
+    </div>
+    <div class="header">
+      <h1>Craving Hunter</h1>
+      <div id="cart-btn">🛒<span id="cart-count">0</span></div>
+    </div>
+
+
+    <div class="food-list" id="food-list"></div>
+
+
+    <a href="./checkout/index.html" class="checkout" style="width: 50%; text-align: center; margin: 0 auto; margin-top: 100px;">Checkout</a>
+
+
+    <div id="cart-popup">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <p class="total">Total: ৳<span id="cart-total">0</span></p>
+      <a href="./checkout/index.html" class="checkout">Checkout</a>
+    </div>
+  </div>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
