@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.checkout-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.order-summary {
+  flex: 1;
+  min-width: 250px;
+  border-right: 1px solid #ddd;
+  padding-right: 1rem;
+}
+
+.order-summary h2 {
+  margin-bottom: 1rem;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.checkout-form {
+  flex: 2;
+  min-width: 300px;
+}
+
+.checkout-form h2 {
+  margin-bottom: 1rem;
+}
+
+.checkout-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#place-order-btn, button{
+  padding: 0.8rem 1.2rem;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  margin: 0 auto;
+
+}
+
+.checkout-form button:hover {
+  background: #218838;
+}

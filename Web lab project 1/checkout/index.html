@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Checkout</h1>
+
+    <div class="checkout-section">
+      <div class="order-summary"></div>
+
+      <div class="checkout-form">
+        <label>Name:</label>
+        <input type="text" id="customer-name" placeholder="Enter your name" required />
+
+        <label>Phone:</label>
+        <input type="tel" id="customer-phone" placeholder="Enter your phone number" required />
+
+        <label>Address:</label>
+        <textarea id="customer-address" placeholder="Enter your address" required></textarea>
+      </div>
+
+      
+      <div id="order-confirmation" style="display: none; text-align: center; margin: 1rem auto;">
+        <p><strong>Payment Method:</strong> Cash on Delivery</p>
+        <p style="color: green;"><strong>Order Placed Successfully!</strong></p>
+      </div>
+      
+    </div>
+    <button id="place-order-btn" style="margin-top: 20px;">Place Order</button>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
